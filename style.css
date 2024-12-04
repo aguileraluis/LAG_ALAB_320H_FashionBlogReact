@@ -1,0 +1,125 @@
+#heading {
+  margin-left: 5%; 
+  margin-top: 2%; 
+  font-size: 80px; 
+  font-family: "Playwrite DE Grund", cursive;
+  color: rgb(223, 80, 80); 
+}
+
+#heading-bottom {
+  margin-left: 5%; 
+  margin-top: 4%; 
+  font-size: 40px; 
+  font-family: "Playwrite DE Grund", cursive;
+  color: rgb(152, 148, 148);
+}
+
+#heading-bottom-footer {
+  display: flex; 
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2%; 
+  margin-top: 2%; 
+  font-size: 25px; 
+  font-family: "Playwrite DE Grund", cursive;
+  color: rgb(152, 148, 148);
+}
+
+#subheading {
+  margin-left: 5%; 
+  font-size: 35px; 
+  margin-top: -4%; 
+  font-family: "Playwrite DE Grund", cursive;
+  color: #000000; 
+}
+
+#subheading-bottom {
+  margin-left: 5%; 
+  font-size: 45px; 
+  margin-bottom: 4%; 
+  margin-top: -1%; 
+  font-family: "Playwrite DE Grund", cursive;
+  color: #000000; 
+}
+
+#navigation {
+  margin-top: -6%; 
+  margin-left: 5%; 
+  margin-right: 5%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-item {
+  font-size: 25px; 
+}
+
+.navilink {
+  color: rgb(152, 148, 148);
+  font-size: 25px; 
+  text-decoration: underline;
+  padding-bottom: 0; 
+  margin-bottom: 0;
+}
+
+.navilinkfoot {
+  color: rgb(152, 148, 148);
+  font-size: 25px; 
+  text-decoration: none;
+  padding-bottom: 0; 
+  margin-bottom: 0; 
+  color: rgb(223, 80, 80); 
+}
+
+.blogImg {
+  width: 89%; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%; 
+  margin-right: 2%; 
+  margin-top: -3%; 
+}
+
+#textSection {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%; 
+  margin-right: 6%; 
+  margin-top: 1.5%; 
+}
+
+.textContent p::first-letter {
+  float:left;
+  color: rgb(152, 148, 148); 
+  font-size: 60px;
+  font-size: 6rem;
+  line-height: 40px;
+  line-height: 4rem;
+  height:4rem;
+  text-transform: uppercase;
+  padding: 1.5%;
+}
+
+#continues {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 6%; 
+  font-size: 30px;
+  color: rgb(223, 80, 80); 
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
